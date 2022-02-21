@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="https://formspree.io/f/xzborkzw" method="Post">
+    <form action="https://formspree.io/f/xzborkzw" method="POST">
 
         <label for="name">Imię:</label>
         <input type="text" name="name" id="name"><br>
@@ -21,14 +21,15 @@
         <label for="phone">Telefon:</label>
         <input type="tel" name="phone" id="phone"><br>
 
-        <select name="select">
+        <label for="select">Miasto</label>
+        <select name="select" id="select">
             <option value="value1">Kraków</option>
             <option value="value2">Warszawa</option>
             <option value="value3">Gdańsk</option>
         </select> <br>
 
-        <input type="radio" name="płec">Mężczyzna 
-        <input type="radio" name="płec">Kobieta <br>
+        <input type="radio" name="płec" value="man">Mężczyzna 
+        <input type="radio" name="płec" value="woman">Kobieta <br>
 
         <input type="checkbox" name="agreement">Zgoda na dane osobowe <br>
 
